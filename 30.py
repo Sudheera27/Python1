@@ -1,5 +1,5 @@
 f1=open("convert.txt","r")
-for i in range(0,3,1):
+for i in range(0,4,1):
     str1=f1.readline().replace("\n","")
     list1=str1.split(" ")
     lhs_value=float(list1[0])
