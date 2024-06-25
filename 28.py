@@ -2,7 +2,6 @@ def goldMedal1(fname):
     f1=open(fname,"r")
     names=[]
     subjects=[]
-    subNames=["English","Maths","Physics","Chemistry","Biology"]
     sub1=[]
     sub2=[]
     sub3=[]
@@ -57,10 +56,10 @@ def goldMedal1(fname):
     return(topperSub1,topperSub2,topperSub3,topperSub4,topperSub5,maxSub1,maxSub2,maxSub3,maxSub4,maxSub5)
 result=goldMedal1("Marks.txt")
     
-print(result[0],result[5],subNames[0])
-print(result[1],result[6],subNames[1])
-print(result[2],result[7],subNames[2])
-print(result[3],result[8],subNames[3])
-print(result[4],result[9],subNames[4])
+print(result[0],result[5])
+print(result[1],result[6])
+print(result[2],result[7])
+print(result[3],result[8])
+print(result[4],result[9])
 
 

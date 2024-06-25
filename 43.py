@@ -1,0 +1,10 @@
+f1=open("passage.txt","r")
+str1=f1.readline().replace("\n","").lower()
+list1=str1.split(" ")
+len1=len(list1)
+set1=set(list1)
+len2=len(set1)
+list2=list(set1)
+list2.sort()
+print(list2)
+
