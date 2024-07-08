@@ -1,0 +1,5 @@
+India,New Delhi
+US,Washington DC
+UK,London
+France,Paris
+UAE,Dubai
